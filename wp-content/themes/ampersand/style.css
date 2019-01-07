@@ -3957,3 +3957,8 @@ div.sharedaddy h3.sd-title:before {
 
 	.footer-widgets aside .widget-title, .footer-widgets aside .widgettitle { margin-bottom: 3% }
 }
+
+body.page-id-508 iframe {
+	width: 1px;
+	min-width: 100%;
+}

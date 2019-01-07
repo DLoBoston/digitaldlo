@@ -10,6 +10,13 @@
 
 get_header(); ?>
 
+<!-- Script for resizing iframe, only applicable to the dev playground page -->
+<script>
+jQuery(document).ready(function ($) {
+    $('#appsIframe').iFrameResize({checkOrigin: false});
+});
+</script>
+
 		<div id="main" class="site-main clearfix">
 			<div id="primary" class="content-area">
 				<div id="content" class="site-content container clearfix" role="main">

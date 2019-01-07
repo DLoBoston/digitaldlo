@@ -120,6 +120,8 @@ function ampersand_scripts() {
 	// HoverIntent JS
 	wp_enqueue_script( 'hoverIntent' );
 
+	wp_enqueue_script( 'iframeResizer', get_template_directory_uri() . "/js/iframeResizer-3.6.3.min.js", array(), '3.6.3', true );
+
 	// Flexslider
 	if ( is_page_template( 'homepage.php' ) ) {
 		// Flexslider CSS
